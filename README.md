@@ -10,14 +10,14 @@ The project has the following directory structure:
 .
 ├── nst.py            # Main Python script performing NST
 ├── images/           # Directory for input images (INPUT)
-│   ├── style.jpg     # Image containing the artistic style
-│   ├── content_1.jpg # Image containing the content (and 4 other content images)
-│   ├── content_2.jpg
-│   ├── content_3.jpg
-│   ├── content_4.jpg
-│   └── content_5.jpg
+│   ├── style.jpg     # Image containing the artistic style (e.g., "Starry Night")
+│   ├── content_1.jpg # Image containing the content (natural scenery)
+│   ├── content_2.jpg # Image containing the content (human portrait)
+│   ├── content_3.jpg # Image containing the content (building)
+│   ├── content_4.jpg # Image containing the content (animal)
+│   └── content_5.jpg # Image containing the content (city ​​night scene)
 └── output/           # Directory for result images (OUTPUT)
-    ├── out_1.png     # Result image after style transfer (and 4 other output images)
+    ├── out_1.png     # Result image after style transfer
     ├── out_2.png
     ...
 ```
